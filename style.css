@@ -1,0 +1,65 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    padding: 15px;
+    font-size: 23px;
+    
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    margin: 10px;
+    width:50%;
+    padding: 10px;
+    float: none;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+
+  body{
+    background-image:url("background.jpg") ;
+  }
+
+  canvas{
+    border:2px solid white;
+    margin-top: 70px;
+    animation-name:bg;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+ 
+  }
+  @keyframes bg{
+    from {
+      box-shadow: 1px 1px 50px blue;
+    }
+
+    to{
+      box-shadow: 1px 1px 50px blueviolet;
+    }
+  }
+
+  .copy_right_footer{
+    background-color: rgb(129, 129, 129);
+    bottom: 0px;
+    position: fixed;
+    width:100%;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+  }
+
+ 
